@@ -1,0 +1,17 @@
+:root {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  --white: white;
+  --blue: #000000;
+  --orange: #000000;
+  --transition-speed: 500ms;
+}
+
+body{
+  background-color: #2f2f2f;
+}
+
+*{
+  font-weight: 300;
+  color: white;
+}

@@ -1,5 +1,5 @@
-# Vue 3 + Vite
+# Tetris + Vue
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A Tetris clone built using Vue. Using javidx9's tetris video as a reference.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+🎯 [Check it out here!](https://saacostam.github.io/tetris-vue/)

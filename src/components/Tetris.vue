@@ -27,7 +27,7 @@
               </div>
               <div class="score">
                   <h5 class="text-white">SCORE</h5>
-                  {{this.score}}
+                  <span class="text-white">{{this.score}}</span>
               </div>
               <div class="controls">
                   <h5 class="text-white">CONTROLS <i class="bi bi-keyboard"></i></h5>

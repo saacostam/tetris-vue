@@ -93,10 +93,11 @@ export default {
               return 'var(--orange)';
           }
       },
-      keyUp(event){
-          return keyDownHandler.bind(this)(event);
-      },
       keyDown(event){
+        event.preventDefault();
+        return keyDownHandler.bind(this)(event);
+      },
+      keyUp(event){
           return keyUpHandler.bind(this)(event);
       },
       setGame(){
@@ -122,13 +123,13 @@ export default {
   },
   mounted(){
       this.intervalId = window.setInterval(mainGameLoop.bind(this), 50);
-      window.addEventListener('keydown', this.keyUp);
-      window.addEventListener('keyup', this.keyDown);
+      window.addEventListener('keydown', this.keyDown);
+      window.addEventListener('keyup', this.keyUp);
   },
   beforeUnmount(){
       window.clearInterval(this.intervalId);
-      window.removeEventListener('keydown', this.keyUp);
-      window.removeEventListener('keyup', this.keyDown);
+      window.removeEventListener('keydown', this.keyDown);
+      window.removeEventListener('keyup', this.keyUp);
   }
 }
 </script>

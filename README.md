@@ -4,7 +4,6 @@ A Tetris clone built using Vue.js, inspired by javidx9's (🙌) Tetris tutorial.
 ## 🚀 Features
 - ✅ Classic Tetris mechanics – rotate, move, and clear lines
 - ✅ Vue.js-powered reactivity for smooth gameplay
-- ✅ Customizable controls and speed adjustments
 - ✅ Minimalist, clean UI
 
 ## 🔧 Technologies Used
